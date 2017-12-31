@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+table.fixed {
+	table-layout: fixed;
+}
+
+table.fixed .table {
+	overflow: hidden;
+}
+
+.table {
+	font-family: Arial, sans-serif;
+	border: 2px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	height: 68px;
+	width: 107px;
+	font-size: 16.66px;
+}
+
+.table__nodata {
+	height: 38px;
+}
+
+.table__header {
+	font-weight: normal;
+}
