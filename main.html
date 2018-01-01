@@ -6,77 +6,18 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<table class="table fixed">
-		<col width="81px" />
-		<col width="107px" />
-		<col width="107px" />
-		<col width="101px" />
-		<tr>
-			<th class="table table__header">Уровень</th>
-			<th class="table table__header">Предмет 1</th>
-			<th class="table table__header">Предмет 2</th>
-			<th class="table table__header">QP</th>
-		</tr>
-		<tr>
-			<td class="table table__nodata ">1</td>
-			<td class="table table__nodata ">-</td>
-			<td class="table table__nodata ">-</td>
-			<td class="table table__nodata ">-</td>
-		</tr>
-		<tr>
-			<td class="table">2</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-		</tr>
-		<tr>
-			<td class="table">3</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-		</tr>
-		<tr>
-			<td class="table">4</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-		</tr>
-		<tr>
-			<td class="table">5</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-		</tr>
-		<tr>
-			<td class="table">6</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-		</tr>
-		<tr>
-			<td class="table">7</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-		</tr>
-		<tr>
-			<td class="table">8</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-		</tr>
-		<tr>
-			<td class="table">9</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-		</tr>
-		<tr>
-			<td class="table">10</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-			<td class="table">-</td>
-		</tr>
-	</table>
+	<form id="fgo-form">
+		<div class="controls">
+			<input type="number" name="itemcount" placeholder="Число предметов" value="2" id="itemcount">
+			<input type="checkbox" name="ascension" value="Ascension" id="ascension"> Ascension
+			<input type="button" name="generatetable" value="Generate" id="generatebutton">
+		</div>
+		<table id="fgo-table" class="table">
+				
+		</table>
+	</form>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>

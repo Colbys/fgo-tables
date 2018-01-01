@@ -3,22 +3,13 @@ body {
 	padding: 0;
 }
 
-table.fixed {
-	table-layout: fixed;
-}
-
-table.fixed .table {
-	overflow: hidden;
-}
-
-.table {
+.table, .row, .data {
 	font-family: Arial, sans-serif;
 	border: 2px solid black;
 	border-collapse: collapse;
 	text-align: center;
-	height: 68px;
-	width: 107px;
 	font-size: 16.66px;
+	padding: 8px;
 }
 
 .table__nodata {
@@ -27,4 +18,13 @@ table.fixed .table {
 
 .table__header {
 	font-weight: normal;
+}
+
+.table__qp {
+	width: 90px;
+}
+
+.table__amount {
+	margin-left: 8px;
+	width: 45px;
 }
